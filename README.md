@@ -1,4 +1,4 @@
-# 📄 AI-Powered Resume Screening System (NLP + DSA)
+# AI-Powered Resume Screening System (NLP + DSA)
 
 ##  Project Overview
 This project implements an **AI-powered resume screening system** that automatically evaluates and ranks resumes based on their relevance to a given job description. It leverages **Natural Language Processing (NLP)** and **Data Structures & Algorithms (DSA)** to provide an efficient, accurate, and scalable solution for resume shortlisting.
