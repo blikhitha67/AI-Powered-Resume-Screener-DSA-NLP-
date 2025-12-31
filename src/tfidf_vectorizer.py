@@ -6,5 +6,5 @@ def get_tfidf_vectors(documents):
     return tfidf_matrix, vectorizer
 
 #How It Works
-#Transforms resumes and job description into TF-IDF vectors
-#Captures keyword importance across documents
+#1. Transforms resumes and job description into TF-IDF vectors
+#2. Captures keyword importance across documents
