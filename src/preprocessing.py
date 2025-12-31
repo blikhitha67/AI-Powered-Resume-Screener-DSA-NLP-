@@ -11,12 +11,11 @@ def clean_text(text):
     return " ".join(tokens)
 
 # How the Code Works:
-# This module cleans and normalizes resume and job description text
-# before applying NLP algorithms.
-# - Converts text to lowercase for consistency
-# - Removes special characters and numbers using regular expressions
-# - Uses spaCy to tokenize the text
-# - Removes stopwords that do not add semantic meaning
-# - Applies lemmatization to convert words to their base form
-# The output is clean text that improves TF-IDF feature extraction
-# and cosine similarity calculations.
+# 1. This module cleans and normalizes resume and job description text
+# 2. before applying NLP algorithms.
+# 3. Converts text to lowercase for consistency
+# 4. Removes special characters and numbers using regular expressions
+# 5. Uses spaCy to tokenize the text
+# 6. Removes stopwords that do not add semantic meaning
+# 7. Applies lemmatization to convert words to their base form
+# The output is clean text that improves TF-IDF feature extraction and cosine similarity calculations.
