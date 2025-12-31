@@ -1,0 +1,36 @@
+Sample Resume Ranking Results
+-----------------------------
+
+Job Role:
+Software Developer
+
+Ranking Based on Cosine Similarity Scores
+
+Rank 1:
+Resume ID: R_102
+Similarity Score: 0.89
+Matched Skills: Python, Data Structures, Machine Learning
+
+Rank 2:
+Resume ID: R_215
+Similarity Score: 0.85
+Matched Skills: Python, NLP, Algorithms
+
+Rank 3:
+Resume ID: R_078
+Similarity Score: 0.81
+Matched Skills: Java, Data Structures, Problem Solving
+
+Rank 4:
+Resume ID: R_134
+Similarity Score: 0.76
+Matched Skills: Backend Development, APIs, Databases
+
+Rank 5:
+Resume ID: R_190
+Similarity Score: 0.72
+Matched Skills: Software Engineering, OOP, Git
+
+Notes:
+- Rankings are generated using a Max Heap (Priority Queue)
+- Higher similarity score indicates better relevance to the job description
