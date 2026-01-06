@@ -5,8 +5,6 @@ This project implements an **AI-powered resume screening system** that automatic
 
 The system was trained and evaluated using a **Kaggle resume dataset** and achieved an **accuracy of 96%**, making it suitable for real-world recruitment scenarios.
 
----
-
 ## Methodology
 
 ### NLP Algorithm Used
@@ -18,8 +16,6 @@ The system was trained and evaluated using a **Kaggle resume dataset** and achie
 - **Cosine Similarity**
 - Measures how closely each resume matches the job description
 
----
-
 ##  Data Structures & Algorithms Used
 - **HashMaps**
   - Store word frequencies during TF-IDF computation
@@ -30,21 +26,15 @@ The system was trained and evaluated using a **Kaggle resume dataset** and achie
 - **Trie (Optional Enhancement)**
   - Enables fast keyword-based skill matching
 
----
-
 ## Dataset
 - Source: **Kaggle Resume Dataset**
 - Contains resumes across multiple job categories
 - Dataset was cleaned, tokenized, and normalized before processing
 
----
-
 ## Performance
 - **Model Accuracy:** 96%
 - High relevance matching between resumes and job descriptions
 - Efficient ranking even with large datasets
-
----
 
 ## Visualizations
 The project includes visualizations for better interpretability:
@@ -52,19 +42,9 @@ The project includes visualizations for better interpretability:
 - Top-ranked resume comparisons
 - Keyword importance using TF-IDF weights
 
----
 
 ## Tech Stack
 - **Language:** Python
 - **Libraries:** scikit-learn, spaCy, NumPy, Pandas, Matplotlib
 - **Backend (Optional):** FastAPI
 - **Dataset Source:** Kaggle
-
----
-
-## How to Run the Project
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/AI-Resume-Screener-NLP-DSA.git
-   cd AI-Resume-Screener-NLP-DSA
